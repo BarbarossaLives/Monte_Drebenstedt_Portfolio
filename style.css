@@ -21,9 +21,16 @@ header {
 }
 
 header h1 {
-  font-size: 2.8rem;
+  font-family: "Poppins", Tahoma, Geneva, Verdana;
+  font-size: 3.8rem;
   color: #00BFFF;  /* Bright sky blue */
   margin-bottom: 10px;
+}
+
+header h2{
+  font-size: 2.0rem;
+  margin-bottom: 10px;
+  color: #20C997;  /* Teal (Superhero accent) */
 }
 
 header p {
