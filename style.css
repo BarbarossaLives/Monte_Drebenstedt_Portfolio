@@ -73,6 +73,8 @@ img{
 .github_link{
   text-align: center;
   font-size: 1.4rem;
+  width:60vw;
+  margin:30px auto;
 }
 
 hr{
@@ -102,6 +104,11 @@ ul {
 li {
   margin-bottom: 10px;
   font-size: 1.6rem;
+}
+
+address p{
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 /* Footer */
