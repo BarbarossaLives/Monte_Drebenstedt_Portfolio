@@ -53,12 +53,12 @@ section h2 {
   color: #20C997;  /* Teal (Superhero accent) */
 }
 
-section p{
+section p {
     text-align: justify;
-    padding-left:20vw;
-    padding-right:20vw;
-    padding-top: 20px;
+    padding: 20px;
+    margin: 0 auto;
     font-size: 1.4rem;
+    max-width: 800px;
 }
 
 .img{
@@ -66,8 +66,10 @@ section p{
   justify-content: center;
 }
 
-img{
-    height:300px;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .github_link{
@@ -125,4 +127,30 @@ footer a {
 
 footer a:hover {
   color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 4rem;
+  }
+
+  header h2 {
+    font-size: 2rem;
+  }
+
+  section p,
+  .github_link {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    margin-bottom: 20px;
+  }
 }
