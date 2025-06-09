@@ -73,7 +73,7 @@ img {
 }
 
 .github_link{
-  text-align: center;
+  text-align: justify;
   font-size: 1.4rem;
   width:60vw;
   margin:30px auto;
@@ -81,13 +81,19 @@ img {
 
 github_link p{
   text-align: justify;
-  margin: 0 auto;
+  margin-bottom: 20px;
   max-width: 800px;
+}
+
+.github_link ul{
+  text-align: left;
 }
 
 hr{
     padding-left:20vw;
-    padding-right:20vw;   
+    padding-right:20vw; 
+    margin-top:45px; 
+    border: 1px black; 
 }
 /* Link Styling */
 a {
